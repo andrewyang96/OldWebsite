@@ -6,7 +6,7 @@ published: true
 
 <style>
 blockquote {
-    margin: 1.5em 0 1.5em;
+    margin: 1.5em 0 3em;
     padding: 0 1em 0 2.5em;
     position:relative;
 }
