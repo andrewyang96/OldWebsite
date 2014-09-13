@@ -1,7 +1,39 @@
 ---
 layout: post
-title: You're up and running!
+title: "Hello world!"
+published: true
 ---
+
+<style>
+blockquote {
+    margin: 1.5em 0 1.5em;
+    padding: 0 1em 0 2.5em;
+    position:relative;
+}
+blockquote:before {
+    color: #aaa;
+    content: "\201C";
+    font-size: 5em;
+    position:absolute;
+    left:3px;
+    top: 0.3em;
+    line-height: 0.1em;
+}
+
+blockquote:after {
+    color: #aaa;
+    content: "\201D";
+    font-size: 5em;
+    position:absolute;
+    right:3px;
+    bottom: 0em;
+    line-height: 0.1em;
+}
+</style>
+
+Reporting from the first Hackathon, this is Andrew Yang.
+
+> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
 
