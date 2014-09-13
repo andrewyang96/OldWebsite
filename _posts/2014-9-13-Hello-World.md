@@ -16,7 +16,7 @@ blockquote:before {
     font-size: 5em;
     position:absolute;
     left:3px;
-    top: 0.1em;
+    top: 0.2em;
     line-height: 0.1em;
 }
 
