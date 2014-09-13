@@ -15,8 +15,8 @@ blockquote:before {
     content: "\201C";
     font-size: 5em;
     position:absolute;
-    left:0px;
-    top: 0.3em;
+    left:3px;
+    top: 1em;
     line-height: 0.1em;
 }
 
