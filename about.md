@@ -16,7 +16,7 @@ Course Assistants:		[insert CA list]
 
 Website Designers:		Andrew Yang
 
-						Veronica Lin
+Veronica Lin
 
 ### Contact me
 
