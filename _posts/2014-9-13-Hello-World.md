@@ -7,7 +7,7 @@ published: true
 <style>
 blockquote {
     margin: 1.5em 0 1.5em;
-    padding: 0 1em 1em 2.5em;
+    padding: 0 1em 0 2.5em;
     position:relative;
 }
 blockquote:before {
@@ -15,7 +15,7 @@ blockquote:before {
     content: "\201C";
     font-size: 5em;
     position:absolute;
-    left:3px;
+    left:0px;
     top: 0.3em;
     line-height: 0.1em;
 }
