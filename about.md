@@ -11,7 +11,9 @@ CS 196 is where miracles happen. CS 196 is where dreams become reality. CS 196 i
 
 ## Staff
 Teaching Assistant: Thomas Reese
+
 Course Assistant: (some CAs)
+
 Website Designers: Andrew Yang, Veronica Lin
 
 ### Contact Us
