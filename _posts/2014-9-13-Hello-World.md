@@ -31,7 +31,10 @@ blockquote:after {
 }
 </style>
 
-Reporting from the first Hackathon, this is Andrew Yang.
+Reporting from the first CS 196 hackathon, this is Andrew Yang. Everyone is busy working on their projects and building great things.
+
+![](/images/hackathon1.jpg)
+![](/images/hackathon2.jpg)
 
 > Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 
