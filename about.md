@@ -10,6 +10,10 @@ published: true
 CS 196 is where miracles happen. CS 196 is where dreams become reality. CS 196 is greater than combined forces of love and life. We are a class from the fine institution of the University of Illinois at Urbana-Champaign, and we make sure that the world knows of our greatness. 
 
 ## Staff
+| Teaching Assistant| Thomas Reese |
+| Course Assistants | [CA list]    |
+| Website Designers | Andrew Yang  |
+|					| Veronica Lin |
 <table>
 	<tr>
     	<td>Teaching Assistant:</td>
