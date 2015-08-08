@@ -6,7 +6,7 @@ var changeBlockquoteBG = function (mouseover) {
         }, 200);
     } else {
         $("#quotes").animate({
-            "background-color": "transparent"
+            "background-color": "rgba(160,160,160,0.8)"
         }, 200);
     }
 };

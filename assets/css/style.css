@@ -5,18 +5,38 @@ body {
 
 .frosting {
     background: rgba(111,111,111,0.6);
-    border-radius: 5vmin;
 }
 
-.light-bg {
-    background: #e7e7e7;
+section.frosting {
     border-radius: 3vmin;
 }
 
+.transition {
+    /* Override hr */
+    border: none;
+    margin: 0;
+    height: 10vh;
+}
+
+.vignette-top {
+    -moz-box-shadow:    inset 0 10vh 10vh -2.5vh #111;
+    -webkit-box-shadow: inset 0 10vh 10vh -2.5vh #111;
+    box-shadow:         inset 0 10vh 10vh -2.5vh #111;
+}
+
 .vignette-bottom {
-    -moz-box-shadow:    inset 0 -12vh 12vh -3vh #111;
-    -webkit-box-shadow: inset 0 -12vh 12vh -3vh #111;
-    box-shadow:         inset 0 -12vh 12vh -3vh #111;
+    -moz-box-shadow:    inset 0 -10vh 10vh -2.5vh #111;
+    -webkit-box-shadow: inset 0 -10vh 10vh -2.5vh #111;
+    box-shadow:         inset 0 -10vh 10vh -2.5vh #111;
+}
+
+.vignette-both {
+    -moz-box-shadow:    inset 0 10vh  10vh -2.5vh #111,
+                        inset 0 -10vh 10vh -2.5vh #111;
+    -webkit-box-shadow: inset 0 10vh  10vh -2.5vh #111,
+                        inset 0 -10vh 10vh -2.5vh #111;
+    box-shadow:         inset 0 10vh  10vh -2.5vh #111,
+                        inset 0 -10vh 10vh -2.5vh #111;
 }
 
 .navbar-default {
@@ -53,6 +73,7 @@ body {
 .splash {
     height: 70vh;
     margin-top: 40px;
+    border-radius: 5vmin;
 }
 
 .big-icon {
@@ -75,4 +96,18 @@ body {
 
 section {
     margin-bottom: 30px;
+}
+
+/* Background images */
+
+.image-bg {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: auto;
+}
+
+#about-bg {
+    background-image: url("../img/bg/flatiron.jpg");
+    background-size: cover;
+    color: white;
 }
