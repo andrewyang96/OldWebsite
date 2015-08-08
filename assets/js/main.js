@@ -44,6 +44,12 @@ $(document).ready(function () {
             scrollTop: $("#portfolio").offset().top
         }, 500);
     });
+    $(".btn-scroll2-experience").click(function (e) {
+        e.preventDefault();
+        $("body").animate({
+            scrollTop: $("#experience").offset().top
+        }, 500);
+    });
     $(".btn-scroll2-contact").click(function (e) {
         e.preventDefault();
         $("body").animate({
