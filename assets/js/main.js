@@ -11,6 +11,25 @@ $(document).ready(function () {
         changeNavbarBG();
     });
 
+    // Make icon borders change color upon hover
+    var changeMyIconBorder = function (mouseover) {
+        // Requires jQuery.color plugin
+        if (mouseover) {
+            $("#my-icon").animate({
+                "border-color": "#rgba(255,255,255,0.6)"
+            }, 200);
+        } else {
+            $("#my-icon").animate({
+                "border-color": "rgba(231,231,231,0.3)"
+            }, 200);
+        }
+    };
+    $("#my-icon").mouseenter(function () {
+        changeMyIconBorder(true);
+    }).mouseleave(function () {
+        changeMyIconBorder(false);
+    });
+
     // Firefox only: add additional CSS rules to html and body to fix scrolling behavior
     if (navigator.userAgent.indexOf("Firefox") != -1) {
         // html { overflow: hidden; height: 100%; }
