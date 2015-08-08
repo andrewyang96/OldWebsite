@@ -1,0 +1,21 @@
+{
+  "name": "andrewyang96.github.io",
+  "version": "0.0.0",
+  "homepage": "http://yangmaster.com/",
+  "authors": [
+    "Andrew Yang <andrewyang96@gmail.com>"
+  ],
+  "description": "Andrew Yang's personal website.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}
