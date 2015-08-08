@@ -5,9 +5,9 @@ $.preloadImages = function(images) {
 };
 
 var BGIMAGES = [
-    "https://i.imgur.com/KIBjcM3.jpg",
-    "https://i.imgur.com/ZiuWjEz.jpg",
-    "https://i.imgur.com/QNP6klF.jpg"
+    "./assets/img/bg/splash1.jpg",
+    "./assets/img/bg/splash2.jpg",
+    "./assets/img/bg/splash3.jpg"
 ];
 
 function BGImage(bgimgs) {
