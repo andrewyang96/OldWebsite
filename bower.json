@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "jquery-color": "~2.1.2",
+    "fontawesome": "~4.4.0"
   }
 }

@@ -1,0 +1,26 @@
+blockquote {
+    border: none;
+    margin: 1.5em 10px;
+    padding: 1em 10px 0.5em;
+    quotes: "\201C""\201D""\2018""\2019";
+    border-radius: 5vmin;
+}
+
+blockquote:before {
+    color: #777;
+    content: open-quote;
+    font-family: Georgia, serif;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+blockquote footer {
+    margin-left: 4em;
+    color: #5e5e5e;
+}
