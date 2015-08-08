@@ -24,11 +24,27 @@ var QUOTES = [
         author: 'Winston Churchill'
     },
     {
+        quote: "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+        author: 'Winston Churchill'
+    },
+    {
+        quote: "If you're going through hell, keep going.",
+        author: 'Winston Churchill'
+    },
+    {
+        quote: "To improve is to change; to be perfect is to change often.",
+        author: 'Winston Churchill'
+    },
+    {
         quote: "Two roads diverged in a wood and I - I took the one less traveled by, and that has made all the difference.",
         author: 'Robert Frost'
     },
     {
         quote: "We are what we repeatedly do; excellence, then, is not an act but a habit.",
+        author: 'Aristotle'
+    },
+    {
+        quote: "It is the mark of an educated man to be able to entertain a thought without accepting it.",
         author: 'Aristotle'
     },
     {
@@ -58,5 +74,33 @@ var QUOTES = [
     {
         quote: "You have to dream before your dreams can come true.",
         author: 'A. P. J. Abdul Kalam'
+    },
+    {
+        quote: "Education is not preparation for life; education is life itself.",
+        author: 'John Dewey'
+    },
+    {
+        quote: "Intellectual growth should commence at birth and cease only at death.",
+        author: 'Albert Einstein'
+    },
+    {
+        quote: "When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity.",
+        author: 'Albert Einstein'
+    },
+    {
+        quote: "The true sign of intelligence is not knowledge but imagination.",
+        author: 'Albert Einstein'
+    },
+    {
+        quote: "The difference between stupidity and genius is that genius has its limits.",
+        author: 'Albert Einstein'
+    },
+    {
+        quote: "A person who never made a mistake never tried anything new.",
+        author: 'Albert Einstein'
+    },
+    {
+        quote: "The only source of knowledge is experience.",
+        author: 'Albert Einstein'
     },
 ];
