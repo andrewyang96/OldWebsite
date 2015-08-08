@@ -10,29 +10,43 @@ $(document).ready(function () {
     $(document).scroll(function (e) {
         changeNavbarBG();
     });
+
+    // Firefox only: add additional CSS rules to html and body to fix scrolling behavior
+    if (navigator.userAgent.indexOf("Firefox") != -1) {
+        // html { overflow: hidden; height: 100%; }
+        // body { overflow: auto; height: 100%; }
+        $("html").css({
+            overflow: "hidden",
+            height: "100%"
+        });
+        $("body").css({
+            overflow: "auto",
+            height: "100%"
+        });
+    }
     
     // Smooth scroll on button clicks
     $(".btn-scroll2-home").click(function (e) {
         e.preventDefault();
-        $("html body").animate({
+        $("body").animate({
             scrollTop: 0
         }, 500);
     });
     $(".btn-scroll2-about").click(function (e) {
         e.preventDefault();
-        $("html body").animate({
+        $("body").animate({
             scrollTop: $("#about").offset().top
         }, 500);
     });
     $(".btn-scroll2-portfolio").click(function (e) {
         e.preventDefault();
-        $("html body").animate({
+        $("body").animate({
             scrollTop: $("#portfolio").offset().top
         }, 500);
     });
     $(".btn-scroll2-contact").click(function (e) {
         e.preventDefault();
-        $("html body").animate({
+        $("body").animate({
             scrollTop: $("#contact").offset().top
         }, 500);
     });
