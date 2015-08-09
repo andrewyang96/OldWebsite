@@ -104,6 +104,20 @@ section {
     margin-bottom: 30px;
 }
 
+.footer i {
+    /* Contact icons */
+    font-size: 5vw;
+}
+
+.footer i {
+    /* Override link color */
+    color: white;
+}
+
+.footer i:hover {
+    color: #e7e7e7;
+}
+
 /* Portfolio and experience section CSS */
 
 .portfolio-list > li {
@@ -131,6 +145,11 @@ section {
     height: auto;
     background-size: cover;
     color: white;
+}
+
+.image-bg.footer {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #about-bg {
