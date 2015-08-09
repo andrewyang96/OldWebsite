@@ -80,7 +80,7 @@
 		<div class="image-bg vignette-both" id="about-bg">
 			<section class="container frosting" id="about">
 				<div class="page-header">
-			    	<h2>About Me</h2>
+			    	<h2>ABOUT ME</h2>
 			    </div>
 
 				<ul class="timeline">
@@ -136,7 +136,7 @@
 						<div class="timeline-panel">
 							<div class="timeline-heading">
 								<h4 class="timeline-title">Yangmaster.com first goes up</h4>
-								<p class="timeline-time"><i class="glyphicon glyphicon-time"></i> 2013</p>
+								<p class="timeline-time"><i class="glyphicon glyphicon-time"></i> September 2013</p>
 							</div>
 							<div class="timeline-body row">
 								<p class="col-xs-12">The website first goes up. I learn a bit of HTML and CSS to format the site, but I ultimately used a template.</p>
@@ -151,7 +151,7 @@
 						<div class="timeline-panel">
 							<div class="timeline-heading">
 								<h4 class="timeline-title">Started College at UIUC</h4>
-								<p class="timeline-time"><i class="glyphicon glyphicon-time"></i> 2014</p>
+								<p class="timeline-time"><i class="glyphicon glyphicon-time"></i> August 2014</p>
 							</div>
 							<div class="timeline-body row">
 								<p class="col-sm-9">I am currently a computer science major at the University of Illinois at Urbana-Champaign. I have since learned a lot, especially regarding computer science. I was introduced to various technologies from C++ to Node.js, and I hope to apply what I've learned to do great things.</p>
@@ -170,11 +170,74 @@
 		</div>
 		<!-- End about section -->
 
-		<section class="container frosting" id="portfolio">
-		    <div class="page-header">
-		    	<h2>Portfolio</h2>
-		    </div>
-		</section>
+		<div class="image-bg vignette-both" id="portfolio-bg">
+			<!-- Begin portfolio -->
+			<section class="container frosting" id="portfolio">
+			    <div class="page-header">
+			    	<h2>PORTFOLIO</h2>
+			    </div>
+			    <div class="text-center"><h3>COMING SOON!</h3></div>
+			</section>
+			<!-- End portfolio -->
+
+			<!-- Begin experience -->
+			<section class="container frosting" id="experience">
+				<div class="page-header">
+					<h2>EXPERIENCE</h2>
+				</div>
+				<ul class="list-unstyled portfolio-list">
+					<li>
+						<h3>BracketOdds</h3>
+						<h4>Undergraduate Programmer</h4>
+						<h5><i class="glyphicon glyphicon-time"></i> October 2014 - May 2015</h5>
+						<div class="row">
+							<div class="col-xs-7">
+								<p>I worked with Professors Sheldon Jacobson and Douglas King on their research project: Bracketodds. It aims to predict the outcomes of the NCAA March Madness tournament based solely on seed numbers. I implemented their power model for generating brackets that look realistic based on performances by seed number in past tournaments. There were over 16000 brackets generated in the week before the round of 64 started. Here are some stats:</p>
+								<ul>
+									<li>Lowest score (ESPN method): 210</li>
+									<li>Highest score: 1620</li>
+									<li>Median score: 650</li>
+									<li>Mean score: 708.32</li>
+									<li>Standard Deviation: 242.46</li>
+								</ul>
+
+								<figure class="centered-img-w-caption">
+									<img class="img-responsive" title="Score Distribution" src="./assets/img/bracketoddsdistribution.png" />
+									<figcaption>
+										<p>Score distribution of the 16068 "eligible" brackets.</p>
+									</figcaption>
+								</figure>
+
+								<p class="lead"><a class="text-danger" href="http://bracketodds.cs.illinois.edu/">Link to BracketOdds Site</a></p>
+								<p class="lead"><a class="text-danger" href="http://shj.cs.illinois.edu/">Professor Jacobson's Website</a></p>
+							</div>
+							<img class="col-xs-5 img-responsive" title="Example BracketOdds Bracket" src="./assets/img/examplebracket.png" />
+						</div>
+					</li>
+
+					<li>
+						<h3>Entrust Datacard</h3>
+						<h4>Software Developer Intern</h4>
+						<h5><i class="glyphicon glyphicon-time"></i> May 2015 - August 2015</h5>
+						<div class="row">
+							<p class="col-sm-10">Over the summer after freshman year, I interned at Entrust Datacard in Shakopee, MN. I greatly expanded my knowledge in software engineering during the three months and learned the importance of agile development and continuous integration. My two main projects were replacing the log4j framework with the logback framework, and to refactor the TruCredential codebase to use the company's foundational libraries for common functionality across all Entrust Datacard software.</p>
+							<img class="col-sm-2 img-responsive" title="Entrust Datacard logo" src="./assets/img/entrustdatacardlogo.png" />
+						</div>
+					</li>
+				</ul>
+			</section>
+			<!-- End experience -->
+		</div>
+
+		<!-- Begin footer -->
+		<footer class="footer frosting vignette-top" id="contact">
+			<div class="container">
+				<div class="page-header">
+					<h2>HAVE ANY INQUIRIES?</h2>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer -->
 
 		<!-- Javascript dependencies -->
 		<script src="./assets/components/jquery/dist/jquery.min.js"></script>
