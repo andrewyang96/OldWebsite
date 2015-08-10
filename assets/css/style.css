@@ -128,6 +128,10 @@ section {
     color: #0ff;
 }
 
+.modal {
+    color: initial;
+}
+
 /* Portfolio and experience section CSS */
 
 .portfolio-list > li {

@@ -204,16 +204,59 @@
 								</ul>
 
 								<figure class="centered-img-w-caption">
-									<img class="img-responsive" title="Score Distribution" src="./assets/img/bracketoddsdistribution.png" />
+									<a href="#" data-toggle="modal" data-target="#scoreDistModal">
+										<img class="img-responsive" title="Score Distribution" src="./assets/img/bracketoddsdistribution.png" />
+									</a>
 									<figcaption>
 										<p>Score distribution of the 16068 "eligible" brackets.</p>
 									</figcaption>
 								</figure>
 
+								<!-- Begin score distribution modal -->
+								<div class="modal fade" id="scoreDistModal" role="dialog">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Score Distribution</h4>
+											</div>
+											<div class="modal-body">
+												<img class="img-responsive" title="Score Distribution" src="./assets/img/bracketoddsdistribution.png" />
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End score distribution modal -->
+
 								<p class="lead"><a class="text-emphasis" href="http://bracketodds.cs.illinois.edu/">Link to BracketOdds Site</a></p>
 								<p class="lead"><a class="text-emphasis " href="http://shj.cs.illinois.edu/">Professor Jacobson's Website</a></p>
 							</div>
-							<img class="col-xs-5 img-responsive" title="Example BracketOdds Bracket" src="./assets/img/examplebracket.png" />
+
+							<a href="#" data-toggle="modal" data-target="#bracketModal">
+								<img class="col-xs-5 img-responsive" title="Example BracketOdds Bracket" src="./assets/img/examplebracket.png" />
+							</a>
+
+							<!-- Begin bracket modal -->
+							<div class="modal fade" id="bracketModal" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">Score Distribution</h4>
+										</div>
+										<div class="modal-body">
+											<img class="img-responsive" title="Example BracketOdds Bracket" src="./assets/img/examplebracket.png" />
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End bracket modal -->
 						</div>
 					</li>
 
