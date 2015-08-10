@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+    p,.btn,input,div,span {
+        font-size: 95%;
+    }
+}
+
 body {
     font-family: 'Oxygen', sans-serif;
     background: #111;
@@ -116,6 +122,10 @@ section {
 
 .footer i:hover {
     color: #e7e7e7;
+}
+
+.text-emphasis, .text-emphasis:hover, .text-emphasis:visited {
+    color: #0ff;
 }
 
 /* Portfolio and experience section CSS */
