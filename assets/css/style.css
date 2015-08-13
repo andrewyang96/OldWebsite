@@ -1,6 +1,22 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     p,.btn,input,div,span {
         font-size: 95%;
+    }
+    .footer i {
+        /* Contact icons */
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer i {
+        font-size: 54px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer i {
+        font-size: 72px;
     }
 }
 
@@ -108,11 +124,6 @@ section.frosting {
 
 section {
     margin-bottom: 30px;
-}
-
-.footer i {
-    /* Contact icons */
-    font-size: 5vw;
 }
 
 .footer i {
