@@ -29,8 +29,8 @@ body {
     background: rgba(111,111,111,0.7);
 }
 
-.footer.frosting {
-    background: rgba(111,111,119,1);
+.footer {
+    background: black;
 }
 
 section.frosting {
