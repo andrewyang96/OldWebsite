@@ -1,20 +1,6 @@
 // Must import bgimage.js, quotes.js, and quoteselector.js before
 
 $(document).ready(function () {
-    // Change size of my icon based on screen size
-    var refreshMyIcon = function () {
-        var windowWidth = $(window).width();
-        if (windowWidth < 992) {
-            // xs and sm screens
-            $("#my-icon").attr("src", "./assets/img/yangmaster-icon-small.jpg");
-        } else {
-            // md and larger screens
-            $("#my-icon").attr("src", "./assets/img/yangmaster-icon.jpg");
-        }
-    };
-    refreshMyIcon();
-    $(window).resize(refreshMyIcon);
-
     // Setup background image animations
     var bgi = new BGImage(BGIMAGES);
     setInterval(function () { bgi.switchImg(); }, 5000);
