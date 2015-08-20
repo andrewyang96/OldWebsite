@@ -140,15 +140,19 @@ var QUOTES = [
         "author": "Confucius"
     }, 
     {
-        "quote": "If Plan A doesn\u2019t work, the alphabet has 35 more letters.", 
+        "quote": "It does not matter how slowly you go as long as you do not stop.", 
+        "author": "Confucius"
+    }, 
+    {
+        "quote": "If Plan A doesn't work, the alphabet has 35 more letters.", 
         "author": "Claire Cook"
     }, 
     {
-        "quote": "Be so good they can\u2019t ignore you.", 
+        "quote": "Be so good they can't ignore you.", 
         "author": "Steve Martin"
     }, 
     {
-        "quote": "Be nice to geeks; you\u2019ll probably end up working for one.", 
+        "quote": "Be nice to geeks; you'll probably end up working for one.", 
         "author": "Bill Gates"
     }, 
     {
@@ -158,5 +162,41 @@ var QUOTES = [
     {
         "quote": "Time is a great teacher, but unfortunately it kills all its pupils.", 
         "author": "Hector Berlioz"
+    }, 
+    {
+        "quote": "Keep your eyes on the stars, and your feet on the ground.", 
+        "author": "Theodore Roosevelt"
+    }, 
+    {
+        "quote": "Problems are not stop signs, they are guidelines.", 
+        "author": "Robert H. Schuller"
+    }, 
+    {
+        "quote": "Even if you fall on your face, you're still moving forward.", 
+        "author": "Victor Kiam"
+    }, 
+    {
+        "quote": "Either I will find a way, or I will make one.", 
+        "author": "Philip Sidney"
+    }, 
+    {
+        "quote": "There is always room at the top.", 
+        "author": "Daniel Webster"
+    }, 
+    {
+        "quote": "It always seems impossible until its done.", 
+        "author": "Nelson Mandela"
+    }, 
+    {
+        "quote": "Innovation is serendipity, so you don't know what people will make.", 
+        "author": "Tim Berners-Lee"
+    }, 
+    {
+        "quote": "When something is important enough, you do it even if the odds are not in your favor.", 
+        "author": "Elon Musk"
+    }, 
+    {
+        "quote": "It's OK to have your eggs in one basket as long as you control what happens to that basket.", 
+        "author": "Elon Musk"
     }
 ];
