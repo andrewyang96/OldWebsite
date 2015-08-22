@@ -145,14 +145,39 @@ section {
 
 /* Portfolio and experience section CSS */
 
-.portfolio-list > li {
+.portfolio-grid > div {
+    /* Add padding on top and bottom, too */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.portfolio-item h2 {
+    height: 2.5em;
+}
+
+.portfolio-item a {
+    color: white;
+}
+
+.portfolio-item a:hover {
+    text-decoration: none;
+}
+
+.portfolio-item {
+    border: 1px solid white;
+    border-radius: 3vmin;
+    padding: 1vh 1vw 1vh 1vw;
+    overflow: hidden;
+}
+
+.experience-list > li {
     border: 1px solid white;
     border-radius: 3vmin;
     padding: 1vh 1vw 1vh 1vw;
     margin: 1vh 0 1vh 0;
 }
 
-.portfolio-list > li:hover {
+.experience-list > li:hover {
     background: rgba(94,94,94,0.8);
 }
 
