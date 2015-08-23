@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>rest api</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>What is an API?</h1>
+<hr />
+<p><sub>Created by Andrew Yang. &copy; 2015. v2</sub></p>
+<p>According to Wikipedia:</p>
+<blockquote>
+<p>In computer programming, an application programming interface (API) is a set of routines, protocols, and tools for building software applications. An API expresses a software component in terms of its operations, inputs, outputs, and underlying types. An API defines functionalities that are independent of their respective implementations, which allows definitions and implementations to vary without compromising each other. A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together.</p>
+</blockquote>
+<p>APIs connect the programmer (you!) to a web service. Here some cool things you can do with the help of APIs:</p>
+<ul>
+<li>Analyze the sentiments of streaming tweets.</li>
+<li>Employ facial recognition (and other computer vision stuff) to Facebook photos.</li>
+<li>Pull stock data from Yahoo Finance.</li>
+<li>Automatically SMS your contacts using Twilio.</li>
+<li>Gather the top search results of a Google search.</li>
+<li><strong>The possibilities are endless!</strong></li>
+</ul>
+<h2>The Basics</h2>
+<p>We'll be dealing with a subset of APIs called REST APIs. REST stands for <strong>Re</strong>presentational <strong>S</strong>tate <strong>T</strong>ransfer. It is used to create scalable web services. REST APIs typically communicate over HTTP (<strong>H</strong>ypertext <strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol). The client (a program or a user) calls a certain URL (<strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator) and receives some data or an error. Each URL has a domain name, and path, and sometimes parameters, as illustrated below.</p>
+<pre><code>mydomain.com/path/to/something?param1=hello?param2=world
+</code></pre>
+
+<h2>The Methods, The Request, and The Response</h2>
+<p>Each call to a certain URL is executed with an HTTP method. There are many HTTP methods, but we'll be primarily dealing with four of them. These are:</p>
+<ul>
+<li><strong>GET</strong> - Requests a specific resource from the specified URL.</li>
+<li><strong>POST</strong> - Requests that the server accept the sent data as data at the URL specified.</li>
+<li><strong>DELETE</strong> - Requests that the server delete a specific resource.</li>
+<li><strong>PUT</strong> - Requests that the server replace a resource with another resource.</li>
+</ul>
+<p>Each REST API call sends a <em>request</em> and receives a <em>response</em>. The request contains the URL the program wants to access and, if necessary, additional data and parameters. The response contains HTTP headers, which specifies details such as caching (storing data for future use) and a status code. Here is a list of some common status codes:</p>
+<ul>
+<li><strong>200</strong> - OK. Everything is alright.</li>
+<li><strong>400</strong> - Bad request. The server thinks the request is malformed in some way.</li>
+<li><strong>401</strong> - Unauthorized. You'll need to provide credentials (e.g. API key, password) to proceed.</li>
+<li><strong>404</strong> - Not found. Your URL is most likely bad.</li>
+<li><strong>500</strong> - Internal server error. You should contact whomever manages this API.</li>
+</ul>
+<p>Some data is usually sent in the response. The data is usually formatted with one of these two methods:</p>
+<ul>
+<li><strong>XML</strong> - e<strong>X</strong>tensible <strong>M</strong>arkup <strong>L</strong>anguage</li>
+<li><strong>JSON</strong> - <b>J</b>ava<b>S</b>cript <strong>O</strong>bject <strong>N</strong>otation</li>
+</ul>
+<h2>Idempotence</h2>
+<p>Idempotence. That sounds scary. But it's really quite simple. Idempotence is the property of certain operations that can be applied multiple times without changing the result. In math, multiplying a number by 1 is an <em>idempotent</em> operation. The same goes with adding 0 to a number.</p>
+<p>Now apply this to HTTP methods. We will examine the four main HTTP methods to see whether they have this property:</p>
+<ul>
+<li><strong>GET:</strong> This method only fetches data from the server. It doesn't alter anything server-side and repeating a specific GET call doesn't have any unintended consequences. This method is idempotent.</li>
+<li><strong>POST:</strong> This method posts something to server, thereby changing its state in some way. If a specific POST call is repeated, then there will be unintended consequences; for example, an order may be placed multiple times or a new account will be registered multiple times. This method is <strong>NOT</strong> idempotent.</li>
+<li><strong>DELETE:</strong> This method deletes something from the server. What happens if a specific DELETE call is repeated? The first call will delete the resource as intended, but subsequent calls will not change anything as the targeted resource has already been deleted. This method is idempotent.</li>
+<li><strong>PUT:</strong> This method updates something on the server. Repeating a specific PUT call will not have unintended consequences as only the first call changes the resouce. Any subsequent calls are redundant. This method is idempotent.</li>
+</ul>
+<p>As we can see, only the <em>POST</em> method is not idempotent. This explains why browsers give a warning when you refresh the page after submitting a form. The refresh button in the browser repeats the last call made, and forms often call an API using the POST method. Ignoring this warning can lead to unintended consequences.</p>
+<h2>Restrictions on API Usage</h2>
+<p>Some APIs restrict the number and/or frequency of calls you can make. For example, Reddit requires programs wait at least 2 seconds between each API call, and Google throttles API access once your program exceeds a certain number of calls in a 24-hour period.</p>
+<p>The most common ways REST APIs use to keep track of usage is through API keys. If you're using an API that requires an API key for each call, you must first authenticate your program. This usually means that you must include it as a parameter in the URL, however this. And if you happen to reach the limit, you'll receive a status code indicating so. This status code varies from API to API, so check the documentation.</p>
+<h2>Putting It All Together</h2>
+<p>To put all the concepts together, let's look at the API documentation for a hypothetical service called Bloggr. Bloggr allows anyone to post notes to its online service without an API key, but it requires an API key for some calls.</p>
+<pre><code>GET /messages
+Fetches a list of all messages. Must provide API key in the parameters!
+
+GET /messages/{id}
+Fetches a message with the specified id. (Replace {id} with a number.)
+
+POST /messages
+Post a message to Bloggr. The request must contain a message body (encoded as a parameter).
+
+DELETE /messages/{id}
+Delete the message from Bloggr with the specified id.
+
+PUT /messages/{id}
+Replaces the message with the specified id with another message.
+The request must contain a message body (encoded as a parameter).
+</code></pre>
+
+<h2>Example of XML Data</h2>
+<pre><code>&lt;root&gt;
+    &lt;user&gt;
+        &lt;username&gt;Allen&lt;/username&gt;
+        &lt;gender&gt;Male&lt;/gender&gt;
+        &lt;age&gt;18&lt;/age&gt;
+    &lt;/user&gt;
+    &lt;user&gt;
+        &lt;username&gt;Becca&lt;/username&gt;
+        &lt;gender&gt;Female&lt;/gender&gt;
+        &lt;age&gt;17&lt;/age&gt;
+    &lt;/user&gt;
+    &lt;user&gt;
+        &lt;username&gt;Cthulhu&lt;/username&gt;
+        &lt;gender&gt;N/A&lt;/gender&gt;
+        &lt;age&gt;2147483647&lt;/age&gt;
+    &lt;/user&gt;
+&lt;/root&gt;
+</code></pre>
+
+<h2>Example of JSON Data</h2>
+<pre><code>{
+    &quot;status&quot;: 200,
+    &quot;users&quot;: [
+        {
+            &quot;username&quot;: &quot;Allen&quot;,
+            &quot;gender&quot;: &quot;Male&quot;,
+            &quot;age&quot;: 18,
+        },
+        {
+            &quot;username&quot;: &quot;Becca&quot;,
+            &quot;gender&quot;: &quot;Female&quot;,
+            &quot;age&quot;: 17,
+        },
+        {
+            &quot;username&quot;: &quot;Cthulhu&quot;,
+            &quot;gender&quot;: &quot;N/A&quot;,
+            &quot;age&quot;: 2147483647
+        }
+    ]
+}
+</code></pre>
+
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
