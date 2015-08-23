@@ -159,7 +159,7 @@ section {
     color: white;
 }
 
-.portfolio-item a:hover {
+.portfolio-item a:hover, .portfolio-item a:focus {
     text-decoration: none;
 }
 
