@@ -153,14 +153,11 @@ section {
 
 .portfolio-item h2 {
     height: 2.5em;
-}
-
-.portfolio-item a {
     color: white;
 }
 
-.portfolio-item a:hover, .portfolio-item a:focus {
-    text-decoration: none;
+.portfolio-grid a:hover, .portfolio-grid a:focus {
+    text-decoration: none !important;
 }
 
 .portfolio-item {
