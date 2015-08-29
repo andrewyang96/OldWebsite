@@ -82,6 +82,25 @@ $(document).ready(function () {
     }).mouseleave(function () {
         changeBlockquoteBG(false);
     });
+
+    // Portfolio grid item background animations
+    var changePortfolioItemBG = function (mouseover, self) {
+        // Requires jQuery.color plugin
+        if (mouseover) {
+            $(self).animate({
+                "background-color": "rgba(160,160,160,0.8)"
+            }, 100);
+        } else {
+            $(self).animate({
+                "background-color": "transparent"
+            }, 100);
+        }
+    };
+    $(".portfolio-grid a .portfolio-item").mouseenter(function () {
+        changePortfolioItemBG(true, this);
+    }).mouseleave(function () {
+        changePortfolioItemBG(false, this);
+    });
     
     // Quote selection
     var qs = new QuoteSelector(QUOTES);
