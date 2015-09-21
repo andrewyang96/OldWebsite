@@ -7,7 +7,8 @@ $.preloadImages = function(images) {
 var BGIMAGES = [
     "./assets/img/bg/splash1.jpg",
     "./assets/img/bg/splash2.jpg",
-    "./assets/img/bg/splash3.jpg"
+    "./assets/img/bg/splash3.jpg",
+    "./assets/img/bg/splash4.jpg"
 ];
 
 function BGImage(bgimgs) {
