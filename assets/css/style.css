@@ -200,9 +200,9 @@ section {
 }
 
 #about-bg {
-    background-image: url("../img/bg/flatiron.jpg");
+    background: #45455f;
 }
 
 #portfolio-bg {
-    background-image: url("../img/bg/portfolio.jpg");
+    background: #292943;
 }
