@@ -1,6 +1,6 @@
 var QUOTES = [
     {
-        "quote": "I pray to win.", 
+        "quote": "\ufeffI pray to win.", 
         "author": "Masaya \"Amsa\" Chikamoto"
     }, 
     {
@@ -36,7 +36,15 @@ var QUOTES = [
         "author": "Winston Churchill"
     }, 
     {
+        "quote": "Success is stumbling from failure to failure with no loss of enthusiasm.", 
+        "author": "Winston Churchill"
+    }, 
+    {
         "quote": "Two roads diverged in a wood and I - I took the one less traveled by, and that has made all the difference.", 
+        "author": "Robert Frost"
+    }, 
+    {
+        "quote": "The best way out is always through.", 
         "author": "Robert Frost"
     }, 
     {
@@ -198,5 +206,45 @@ var QUOTES = [
     {
         "quote": "It's OK to have your eggs in one basket as long as you control what happens to that basket.", 
         "author": "Elon Musk"
+    }, 
+    {
+        "quote": "Aut inveniam viam aut faciam. (I shall either find a way or make one.)", 
+        "author": "Hannibal"
+    }, 
+    {
+        "quote": "Veni, vidi, vici. (I came, I saw, I conquered.)", 
+        "author": "Julius Caesar"
+    }, 
+    {
+        "quote": "Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says I'll try again tomorrow.", 
+        "author": "Mary Anne Radmacher"
+    }, 
+    {
+        "quote": "Never confuse a single defeat with a final defeat.", 
+        "author": "F. Scott Fitzgerald"
+    }, 
+    {
+        "quote": "Character consists of what you do on the third and fourth tries.", 
+        "author": "James A. Michener"
+    }, 
+    {
+        "quote": "A champion is someone who gets up, even when he can't.", 
+        "author": "Jack Dempsey"
+    }, 
+    {
+        "quote": "It's not whether you get knocked down; it's whether you get up.", 
+        "author": "Vince Lombardi"
+    }, 
+    {
+        "quote": "I ask not for a lighter burden, but for broader shoulders.", 
+        "author": "Jewish Proverb"
+    }, 
+    {
+        "quote": "All things are difficult before they are easy.", 
+        "author": "Thomas Fuller"
+    }, 
+    {
+        "quote": "Failure is the mother of success.", 
+        "author": "Chinese Proverb"
     }
 ];

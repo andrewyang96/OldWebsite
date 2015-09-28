@@ -1,4 +1,4 @@
-I pray to win.
+﻿I pray to win.
 Masaya "Amsa" Chikamoto
 
 Life is this crazy, mystical thing, and sometimes you go out like a buster.
@@ -25,7 +25,13 @@ Winston Churchill
 To improve is to change; to be perfect is to change often.
 Winston Churchill
 
+Success is stumbling from failure to failure with no loss of enthusiasm.
+Winston Churchill
+
 Two roads diverged in a wood and I - I took the one less traveled by, and that has made all the difference.
+Robert Frost
+
+The best way out is always through.
 Robert Frost
 
 We are what we repeatedly do; excellence, then, is not an act but a habit.
@@ -147,3 +153,33 @@ Elon Musk
 
 It's OK to have your eggs in one basket as long as you control what happens to that basket.
 Elon Musk
+
+Aut inveniam viam aut faciam. (I shall either find a way or make one.)
+Hannibal
+
+Veni, vidi, vici. (I came, I saw, I conquered.)
+Julius Caesar
+
+Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says I'll try again tomorrow.
+Mary Anne Radmacher
+
+Never confuse a single defeat with a final defeat.
+F. Scott Fitzgerald
+
+Character consists of what you do on the third and fourth tries.
+James A. Michener
+
+A champion is someone who gets up, even when he can't.
+Jack Dempsey
+
+It's not whether you get knocked down; it's whether you get up.
+Vince Lombardi
+
+I ask not for a lighter burden, but for broader shoulders.
+Jewish Proverb
+
+All things are difficult before they are easy.
+Thomas Fuller
+
+Failure is the mother of success.
+Chinese Proverb
