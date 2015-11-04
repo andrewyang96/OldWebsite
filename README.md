@@ -1,3 +1,3 @@
 # andrewyang96.github.io
 
-Personal Website: http://yangmaster.com/
+Personal Website: http://andrewyang.xyz/
