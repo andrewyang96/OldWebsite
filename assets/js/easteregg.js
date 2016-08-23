@@ -1,7 +1,4 @@
 $(document).ready(function () {
-	// Preload audio
-	var duckArmyAudio = new Audio("./assets/duckarmy.mp3");
-
 	// ALL YOUR BASE EASTER EGG
 	$(window).konami({
 		cheat: function () {
