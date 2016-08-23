@@ -18,25 +18,4 @@ $(document).ready(function () {
 	        }, 500);
 		}
 	});
-
-	// DUCK ARMY EASTER EGG
-	$(window).konami({
-		code: [68, 85, 67, 75, 65, 82, 77, 89],
-		cheat: function () {
-			// DUX
-			$("#splash-head").html("DUCK ARMY");
-			$("#my-icon").attr("src", "./assets/img/evilduck.jpg");
-			$("#my-icon").attr("alt", "Evil Duck");
-			$("#my-icon").attr("title", "That's NOT me!");
-			$("#splash-lead").html("HOOOOOOOOOOOOOOOOOOOONK!!");
-
-			// Then smooth scroll to splash page
-			$("body").animate({
-	            scrollTop: 0
-	        }, 500);
-
-			// Finally play audio
-			duckArmyAudio.play();
-		}
-	});
 });
